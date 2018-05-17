@@ -27,13 +27,13 @@ export class HomePage {
     //   this.versionNumber = ver;
     // });
 
-    this.vappName = this.appVersion.getAppName();
+    // this.vappName = this.appVersion.getAppName();
 
-    this.packageName = this.appVersion.getPackageName();
+    // this.packageName = this.appVersion.getPackageName();
 
-    this.versionCode = this.appVersion.getVersionCode();
+    // this.versionCode = this.appVersion.getVersionCode();
 
-    this.versionNumber = this.appVersion.getVersionNumber();
+    // this.versionNumber = this.appVersion.getVersionNumber();
 
     Pro.monitoring.exception(new Error('Error Entrar App'));
 
