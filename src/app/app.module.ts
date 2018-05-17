@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Pro } from '@ionic/pro';
+import { AppVersion } from '@ionic-native/app-version';
 
 Pro.init('e03a7f41', {
   appVersion: '0.0.1'
@@ -50,6 +51,7 @@ export class MyErrorHandler implements ErrorHandler {
   providers: [
     StatusBar,
     SplashScreen,
+    AppVersion,
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })
