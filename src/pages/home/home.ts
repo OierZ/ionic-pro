@@ -11,6 +11,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
     Pro.monitoring.exception(new Error('Error Entrar App'));
+
   }
 
   getErrorMonitoring() {
