@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Pro } from '@ionic/pro';
-import { AppVersion } from '@ionic-native/app-version';
 
 @Component({
   selector: 'page-home',
@@ -13,7 +12,7 @@ export class HomePage {
   versionCode;
   versionNumber;
 
-  constructor(private appVersion: AppVersion, public navCtrl: NavController) {
+  constructor(public navCtrl: NavController) {
     // this.appVersion.getAppName().then((ver) => {
     //   this.vappName = ver;
     // });
